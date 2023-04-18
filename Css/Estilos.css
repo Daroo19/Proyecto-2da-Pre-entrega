@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2? family= Manrope:wght@200;400;700 & display=swap');
+
+body{
+    font-family: 'Manrope', sans-serif;
+}
+    header{
+        height: 20vh;
+        background-image: url(../Assets/Img/motor-g2275a3f08_1920.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+        .BloqueLogo{
+            width: 45%;
+            display: inline-block;
+            padding-top: 1.5%;
+        }
+        .Logo{
+            width: 25%;
+        }
+        .Menu{
+            display: inline-block;
+            width: 50%;
+            }
+            .ListaMenu{
+                list-style: none;
+                display:inline-block;
+                background-color: black;
+                border: 2px solid white;
+                padding: 3px;
+                padding-top: 1%;
+            }
+                .LinkMenu{
+                    text-decoration: none;
+                    color: rgb(255, 255, 255);
+                    padding-bottom: 100%;
+                }
+
+    main{
+        height: 80vh;
+        background-image: url(../Assets/Img/pexels-mídia-4116193.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+        .BloqueTitulo{
+            width: 35%;
+            margin: 0 auto;
+        }
+        .Titulo{
+            color: rgb(255, 255, 255);
+            margin: 0 auto;
+            width: 60%;
+        }
+        .BloqueSub{
+            width: 100%;
+            margin: 0 auto;
+        }
+        .Sub{
+            color: rgb(255, 255, 255);
+            margin: 0 auto;
+            width: 100%;
+        }
+        
+    footer{
+        height: 45vh;
+        background-color: rgb(7, 7, 7);
+    }
+        .CopyRight{
+            text-align: center;
+            color: white;
+            margin: 0 auto;
+            margin-top: 1%;
+        }
+        .ing{
+            color: red;
+            position: fixed;
+            left: 1%;
+            bottom: 10%;
+        }
+        .fb{
+            color: red;
+            position: fixed;
+            left: 1%;
+            bottom: 2%;
+        }
+        .wsp{
+            display: inline-block;
+            color: rgb(51, 255, 0);
+            position: fixed;
+            right: 0;
+            bottom: 2%;
+        }
+        .Mapas{
+            text-align: center;
+            margin: 0 auto;
+            margin-top: 2%;
+        }
