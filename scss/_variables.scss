@@ -6,31 +6,32 @@ h1{
 
 .BloqueTitulo {
     display: contents;
+    .Titulo {
+        position: relative;
+        color: rgb(255, 217, 0) !important;
+        text-align: center;
+        margin: 0 auto;
+        width: 40%;
+    }
 }
 
 .BloqueLogo {
     width: 45%;
     display: flex;
-}
-
-.Logo {
-    width: 25%;
-}
-.Titulo {
-    color: rgb(255, 255, 255);
-    text-align: center;
-    margin: 0 auto;
-    width: 32%;
+    .Logo {
+        width: 25%;
+    }
 }
 
 .BloqueSub {
-    width: 70%;
-    margin-left: 16%;
+    width: 65%;
+    margin-left: 36%;
     text-align: justify;
-}
-.Sub {
-    color: rgb(255, 255, 255);
-    margin: 0 auto;
-    width: 100%;
-    font-size: 1rem;
+    backdrop-filter: blur(10px) saturate(50%);
+    .Sub {
+        color: rgb(255, 255, 255) !important;
+        margin: 0 auto;
+        width: 100%;
+        font-size: 1rem;
+    }
 }

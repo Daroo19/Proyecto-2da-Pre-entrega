@@ -2,14 +2,18 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-main {
-    margin-top: 20px;
-    height: 80vh;
+    text-decoration: none;
+    list-style: none;
+}   
+.background-main{
     background-image: url(../Assets/Img/pexels-mídia-4116193.jpg);
-    background-color: rgba(255, 255, 255, 0.329);
+        filter: brightness(0.8);
+    margin-top: 20px;
+    height: auto;
+    background-color: rgb(0, 0, 0);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    
 }

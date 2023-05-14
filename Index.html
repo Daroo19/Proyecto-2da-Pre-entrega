@@ -5,21 +5,21 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mecanica Nitro</title>
+  <title>Mecanica Nitro - Inicio</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="./Css/Estilos.css">
-  <script src="https://kit.fontawesome.com/acaf011dda.js" crossorigin="anonymous"></script>
   <link rel="icon" type="image/x-icon" href="./Assets/Img/IcoPestaña.png">
+  <script src="https://kit.fontawesome.com/acaf011dda.js" crossorigin="anonymous"></script>
 
 </head>
 
-<body class="Body">
-  <Header>
-    <div class="BloqueLogo">
+<body class="body">
+  <Header class="container-fluid">
+    <a class="BloqueLogo" href="#">
       <img class="Logo" src="./Assets/Img/56a9f3d83ae58_thumb900.webp" alt="Logo" width="75px">
-    </div>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    </a>
+    <nav class="navbar navbar-expand-lg navbar-dark navHeader">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Inicio</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -40,42 +40,52 @@
                 Servicios
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Lubricentro</a></li>
-                <li><a class="dropdown-item" href="#">Lavado Interior/Exterior</a></li>
-                <li><a class="dropdown-item" href="#">Mecanica General</a></li>
-                <li><a class="dropdown-item" href="#">Diagnostico Computarizado</a></li>
+                <li><a class="dropdown-item" href="Pages/Lubricentro.html">Lubricentro</a></li>
+                <li><a class="dropdown-item" href="Pages/Lavadero.html">Lavado Interior/Exterior</a></li>
+                <li><a class="dropdown-item" href="Pages/Mecanica General.html">Mecanica General</a></li>
+                <li><a class="dropdown-item" href="Pages/Diagnostico.html">Diagnostico Computarizado</a></li>
                 <li>
                   <hr class="dropdown-divider">
                 </li>
                 <li><a class="dropdown-item" href="Pages/Pedi tu Turno.html">Pedir Turno</a></li>
               </ul>
             </li>
-            <!--<li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                  </li> -->
-          </ul>
-          <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Que buscas?" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Buscar</button>
-          </form>
         </div>
       </div>
     </nav>
   </Header>
-  <main>
-    <section>
-      <div class="BloqueTitulo">
-        <h1 class="Titulo">Mecanica Nitro</h1>
+
+  <main class="background-main">
+    <div class="BloqueTitulo">
+      <h1 class="Titulo">Mecanica Integral NITRO</h1>
+    </div>
+    <section class="row">
+      <div class="col-sm-12 col-md-5">
+        <div class="BloqueSub">
+          <h2 class="Sub">¡Bienvenidos al taller mecánico integral NITRO!<br>
+            Nos complace recibirlos en nuestras instalaciones, donde ofrecemos servicios de reparación y mantenimiento
+            para todo tipo de vehículos. Nuestro equipo de técnicos se asegurará de que su
+            automóvil reciba la atención y el cuidado que necesita para funcionar de manera óptima.<br>
+            En este taller, nos enorgullece ofrecer un enfoque personalizado para cada uno de nuestros clientes,
+            ya sea que necesite una reparación urgente o un mantenimiento regular, podemos ayudarlo.<br>
+            Además, utilizamos tecnología y herramientas de última generación para garantizar que su automóvil reciba
+            el mejor servicio posible. Desde el diagnóstico hasta la reparación, nos aseguramos de que cada paso del
+            proceso sea preciso y eficiente.<br>
+            Estamos comprometidos con la satisfacción del cliente y trabajamos arduamente para asegurarnos de que su
+            experiencia en nuestro taller sea excepcional.<br>
+            ¡Gracias por confiar en nosotros para el cuidado de su
+            vehículo!
+          </h2>
+        </div>
       </div>
-      <div class="BloqueSub">
-       <h2 class="Sub">¡Bienvenidos al taller mecánico integral NITRO!
-        Nos complace recibirlos en nuestras instalaciones, donde ofrecemos servicios de reparación y mantenimiento para todo tipo de vehículos. Nuestro equipo de técnicos altamente capacitados se asegurará de que su automóvil reciba la atención y el cuidado que necesita para funcionar de manera óptima.
-        En este taller, nos enorgullece ofrecer un enfoque personalizado para cada uno de nuestros clientes. Nos tomamos el tiempo para comprender sus necesidades individuales y ofrecemos soluciones adaptadas a ellas. Ya sea que necesite una reparación urgente o un mantenimiento regular, podemos ayudarlo.
-        Además, utilizamos tecnología y herramientas de última generación para garantizar que su automóvil reciba el mejor servicio posible. Desde el diagnóstico hasta la reparación, nos aseguramos de que cada paso del proceso sea preciso y eficiente.
-        Estamos comprometidos con la satisfacción del cliente y trabajamos arduamente para asegurarnos de que su experiencia en nuestro taller sea excepcional. ¡Gracias por confiar en nosotros para el cuidado de su vehículo!</h2>
+      <div class="col-sm-12 col-md-4">
+        <div>
+          <img src="./Assets/Img/fachada taller.webp" alt="frente taller">
+        </div>
       </div>
     </section>
   </main>
+
   <footer>
     <div>
       <a href="https://www.facebook.com/" target="_blank"><i class="fb fa-brands fa-facebook fa-3x"></i></a>
@@ -91,10 +101,10 @@
     <div class="CopyRight">
       <p>Todos los derechos reservados. Dario Zarate</p>
     </div>
-  </footer>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
+  </footer>
 </body>
 
 </html>
