@@ -5,15 +5,16 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mecanica Nitro/ GALERIA</title>
+  <title>Mec. Nitro- Galeria</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <link rel="stylesheet" href="../Css/Estilos.css">
-  <script src="https://kit.fontawesome.com/acaf011dda.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../Css/estilos.css">
   <link rel="icon" type="image/x-icon" href="../Assets/Img/IcoPestaña.png">
+  <script src="https://kit.fontawesome.com/acaf011dda.js" crossorigin="anonymous"></script>
+
 </head>
 
-<body class="Body">
+<body class="body">
   <Header class="container-fluid">
     <a class="BloqueLogo" href="../Index.html">
       <img class="Logo" src="../Assets/Img/56a9f3d83ae58_thumb900.webp" alt="Logo" width="75px">
@@ -39,10 +40,10 @@
                 Servicios
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Lubricentro</a></li>
-                <li><a class="dropdown-item" href="#">Lavado Interior/Exterior</a></li>
-                <li><a class="dropdown-item" href="#">Mecanica General</a></li>
-                <li><a class="dropdown-item" href="#">Diagnostico Computarizado</a></li>
+                <li><a class="dropdown-item" href="Lubricentro.html">Lubricentro</a></li>
+                <li><a class="dropdown-item" href="Lavadero.html">Lavado Interior/Exterior</a></li>
+                <li><a class="dropdown-item" href="Mecanica General.html">Mecanica General</a></li>
+                <li><a class="dropdown-item" href="Diagnostico.html">Diagnostico Computarizado</a></li>
                 <li>
                   <hr class="dropdown-divider">
                 </li>
@@ -54,41 +55,69 @@
       </div>
     </nav>
   </Header>
-  <main class="container-fluid">
+
+  <main class="background-main">
     <div class="BloqueTitulo">
       <h1 class="Titulo">Nuestro trabajos</h1>
     </div>
-    <section>
+    <section class="sections">
       <div class="tarjetas">
         <div class="card">
           <img src="../Assets/Img/limpiar-motor-coche.jpg" class="card-img-top" alt="Limpieza Motor">
           <div class="card-body">
-            <p class="card-text">Limpieza de Motores</p>
+            <p-card class="card-text">Limpieza de Motores</p-card>
           </div>
         </div>
         <div class="card">
           <img src="../Assets/Img/reg-valvula.jpg" class="card-img-top" alt="Regulacion de valvulas">
           <div class="card-body">
-            <p class="card-text">Regulacion de Valvulas</p>
+            <p-card class="card-text">Regulacion de Valvulas</p-card>
           </div>
         </div>
         <div class="card">
           <img src="../Assets/Img/Mecanicagen.jpg" class="card-img-top" alt="Mecanica General">
           <div class="card-body">
-            <p class="card-text">Mecanica General</p>
+            <p-card class="card-text">Mecanica General</p-card>
           </div>
         </div>
         <div class="card">
           <img src="../Assets/Img/autolavado.jpg" class="card-img-top" alt="autolavado">
           <div class="card-body">
-            <p class="card-text">Lavado de Vehiculos</p>
+            <p-card class="card-text">Lavado de Vehiculos</p-card>
           </div>
         </div>
       </div>
     </section>
+    <section>
+      <div class="com-cliente">
+        <div class="col-sm-12">
+          <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="20000">
+                <h2 class="com-cliente">"Estoy muy satisfecho con el taller mecánico NITRO. El personal fue amable y profesional, y los mecánicos resolvieron todos los problemas de mi auto de manera eficiente. Utilizan equipos modernos y entregaron mi vehículo a tiempo. Recomiendo encarecidamente el taller NITRO por su excelente servicio."</h2>
+              </div>
+              <div class="carousel-item" data-bs-interval="20000">
+                <h2 class="com-cliente">Quiero expresar mi satisfacción con la impresionante infraestructura del taller mecánico NOTRO. Desde el momento en que llegué, quedé impresionado por sus modernas instalaciones y equipos de alta tecnología. Su enfoque en mantenerse actualizados con las últimas herramientas y tecnologías demuestra su compromiso con la calidad y la eficiencia en el servicio. Además, el taller estaba organizado y limpio, lo que brindaba un ambiente profesional y acogedor. Estoy realmente impresionado con la infraestructura del taller NITRO y me brindó una mayor confianza en la calidad del trabajo que realizaron en mi automóvil."</h2>
+              </div>
+              <div class="carousel-item">
+                <h2 class="com-cliente">"Quiero compartir mi experiencia increíble en el taller mecánico NITRO. El personal fue amable y profesional desde el principio. Los mecánicos demostraron un gran conocimiento y resolvieron todos los problemas de mi auto. Utilizan equipos de última generación y entregaron mi vehículo a tiempo. Recomiendo encarecidamente el taller NITRO por su excelente trabajo y atención al cliente. ¡Gracias!"</h2>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>    
+    </section>
   </main>
+
   <footer>
-    <br>
     <div>
       <a href="https://www.facebook.com/" target="_blank"><i class="fb fa-brands fa-facebook fa-3x"></i></a>
       <a href="https://www.instagram.com/" target="_blank"><i class="ing fa-brands fa-instagram fa-3x"></i></a>
@@ -103,10 +132,10 @@
     <div class="CopyRight">
       <p>Todos los derechos reservados. Dario Zarate</p>
     </div>
-  </footer>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
+  </footer>
 </body>
 
 </html>

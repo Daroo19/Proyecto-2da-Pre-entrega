@@ -5,15 +5,16 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mecanica Nitro/ Tu Turno</title>
+  <title>Mec. Nitro- Tu Turno</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <link rel="stylesheet" href="../Css/Estilos.css">
-  <script src="https://kit.fontawesome.com/acaf011dda.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../Css/estilos.css">
   <link rel="icon" type="image/x-icon" href="../Assets/Img/IcoPestaña.png">
+  <script src="https://kit.fontawesome.com/acaf011dda.js" crossorigin="anonymous"></script>
+
 </head>
 
-<body class="Body">
+<body class="body">
   <Header class="container-fluid">
     <a class="BloqueLogo" href="../Index.html">
       <img class="Logo" src="../Assets/Img/56a9f3d83ae58_thumb900.webp" alt="Logo" width="75px">
@@ -39,67 +40,99 @@
                 Servicios
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Lubricentro</a></li>
-                <li><a class="dropdown-item" href="#">Lavado Interior/Exterior</a></li>
-                <li><a class="dropdown-item" href="#">Mecanica General</a></li>
-                <li><a class="dropdown-item" href="#">Diagnostico Computarizado</a></li>
+                <li><a class="dropdown-item" href="Lubricentro.html">Lubricentro</a></li>
+                <li><a class="dropdown-item" href="Lavadero.html">Lavado Interior/Exterior</a></li>
+                <li><a class="dropdown-item" href="Mecanica General.html">Mecanica General</a></li>
+                <li><a class="dropdown-item" href="Diagnostico.html">Diagnostico Computarizado</a></li>
                 <li>
                   <hr class="dropdown-divider">
                 </li>
                 <li><a class="dropdown-item" href="#">Pedir Turno</a></li>
               </ul>
             </li>
-            <!--/<li class="nav-item">
-                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                      </li> -->
           </ul>
-          <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Que buscas?" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Buscar</button>
-          </form>
         </div>
       </div>
     </nav>
   </Header>
-  <main>
+
+  <main class="background-main">
     <div class="BloqueTitulo">
       <h1 class="Titulo">Programa tu lugar</h1>
     </div>
-    <form>
-      <div><input type="text" placeholder="Ingrese su nombre" required class="usuario">
+    <main class="p-2">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6 col-lg-6 mb-2">
+            <section class="p-1">
+              <h2 class="mb-3 display-2">Nos pondremos en contacto!</h2>
+              <p class="mt-5 h4">Nuestros tecnicos especializados responderan tu solicitud</p>
+            </section>
+          </div>
+          <div class="col-md-6 col-lg-6">
+            <section class="shadow bg-dark rounded p-3">
+              <h3 class="text-center text-white sm-4 display-10"> <strong>Formulario de contacto</strong></h3>
+              <form>
+                <div class="form-group">
+                  <label for="nombre" class="text-white">Nombre:</label>
+                  <input type="text" class="form-control" id="nombre" name="nombre" required>
+                </div>
+                <div class="form-group">
+                  <label for="apellido" class="text-white">Apellido:</label>
+                  <input type="text" class="form-control" id="apellido" name="apellido" required>
+                </div>
+                <div class="form-group">
+                  <label for="email" class="text-white">Correo electrónico:</label>
+                  <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                  <label for="telefono" class="text-white">Teléfono:</label>
+                  <input type="tel" class="form-control" id="telefono" name="telefono" required>
+                </div>
+                <div class="form-group">
+                  <label for="marca de vehiculo" class="text-white">Marca de su vehículo:</label>
+                  <input type="text" class="form-control" id="Marca" name="marca de vehiculo" required>
+                </div>
+                <div class="form-group">
+                  <label for="modelo vehiculo" class="text-white">Modelo de vehiculo:</label>
+                  <input type="text" class="form-control" id="Marca" name="modelo de vehiculo" required>
+                </div>
+                <div class="form-group">
+                  <label for="comentarios" class="text-white">Comentarios:</label>
+                  <textarea class="form-control" id="comentarios" name="comentarios" rows="3"></textarea>
+                </div>
+                <div class="d-flex justify-content-center">
+                  <button type="submit" class="btn btn-primary mt-3">Enviar</button>
+                </div>
+                <div class="d-flex justify-content-center">
+                  <button type="reset" class="btn btn-primary mt-3">Limpiar</button>
+                </div>
+              </form>
+            </section>
+          </div>
+        </div>
       </div>
+    </main>
+
+    <footer>
       <div>
-        <input type="email" placeholder="Ingrese su mail" required class="correo">
+        <a href="https://www.facebook.com/" target="_blank"><i class="fb fa-brands fa-facebook fa-3x"></i></a>
+        <a href="https://www.instagram.com/" target="_blank"><i class="ing fa-brands fa-instagram fa-3x"></i></a>
+        <a href="https://www.whatsapp.com/" target="_blank"><i class="wsp fa-brands fa-whatsapp fa-3x"></i></a>
       </div>
-      <div>
-        <textarea class="texto" name="" id="" cols="30" rows="10"
-          placeholder="Ingrese un resumen del problema de su vehiculo"></textarea>
+      <div class="Mapas">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d5607.191375304314!2d-67.71189297200178!3d-53.779990508307144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1smaps!5e0!3m2!1ses-419!2sar!4v1679535049982!5m2!1ses-419!2sar"
+          width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
-      <div>
-        <input type="submit" value="Enviar Formulario" class="botonEnviar">
-        <input type="reset" value="Limpiar" class="botonReset">
+      <div class="CopyRight">
+        <p>Todos los derechos reservados. Dario Zarate</p>
       </div>
-    </form>
-  </main>
-  <footer>
-    <div>
-      <a href="https://www.facebook.com/" target="_blank"><i class="fb fa-brands fa-facebook fa-3x"></i></a>
-      <a href="https://www.instagram.com/" target="_blank"><i class="ing fa-brands fa-instagram fa-3x"></i></a>
-      <a href="https://www.whatsapp.com/" target="_blank"><i class="wsp fa-brands fa-whatsapp fa-3x"></i></a>
-    </div>
-    <div class="Mapas">
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d5607.191375304314!2d-67.71189297200178!3d-53.779990508307144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1smaps!5e0!3m2!1ses-419!2sar!4v1679535049982!5m2!1ses-419!2sar"
-        width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
-    <div class="CopyRight">
-      <p>Todos los derechos reservados. Dario Zarate</p>
-    </div>
-  </footer>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"></script>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"></script>
 </body>
 
 </html>

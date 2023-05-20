@@ -1,9 +1,20 @@
 $fuente-textos-titulos: 'Manrope', sans-serif;
-$tituloh1: color rgb(255, 255, 255);
+$tituloh1: color rgb(255, 230, 0);
 h1{  
-    font-size: 2.5rem;
+    font-size: 3rem;
 }
 
+h2{
+    color: rgb(255, 253, 253);
+}
+
+h3{
+    color: rgb(0, 0, 0);
+}
+
+p{
+    color: white !important;
+}
 .BloqueTitulo {
     display: contents;
     .Titulo {
@@ -12,6 +23,8 @@ h1{
         text-align: center;
         margin: 0 auto;
         width: 40%;
+        z-index: 1;
+        text-shadow: 40px;
     }
 }
 
@@ -33,5 +46,93 @@ h1{
         margin: 0 auto;
         width: 100%;
         font-size: 1rem;
+    }
+}
+
+.sections {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tallerFrente {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+.h3 {
+    .Com.cliente {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: justify;
+        margin: auto;
+        background-color: lightsalmon;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width:767px){
+
+    .h1{
+        font-size: 1rem;
+    }
+
+    .navbar-toggler {
+        border-color: rgb(0, 0, 0) !important;
+        border: 5px solid rgb(0, 136, 255) !important;
+    
+        &:hover {
+            border-color: rgb(247, 5, 5) !important;
+        }
+    }
+    
+    .tallerFrente {
+      width: 50%;
+      margin-left: 28%;
+      display: block;
+    }
+    
+    .BloqueTitulo {
+        display: contents;
+        .Titulo {
+            position: relative;
+            color: rgb(255, 217, 0) !important;
+            text-align: center;
+            margin-left: auto;
+            width: 90%;
+            z-index: 1;
+            text-shadow: 20cap;
+        }
+    }
+    
+    .BloqueLogo {
+        width: 45%;
+        display: flex;
+        .Logo {
+            width: 25%;
+        }
+    }
+    
+    .BloqueSub {
+        width: 65%;
+        margin-left: 20%;
+        text-align: justify;
+        backdrop-filter: blur(10px) saturate(50%);
+        .Sub {
+            color: rgb(255, 255, 255) !important;
+            margin: 0 auto;
+            width: 100%;
+            font-size: 1rem;
+            text-shadow: 20px 20px 20px; 
+        }
+    }
+    
+    .sections {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
