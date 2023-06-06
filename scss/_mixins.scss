@@ -19,7 +19,7 @@
     flex-direction:$direction;
     justify-content:center;
 }
-/*ujuustify tiene un valor por defecto que es un variable, si cuando llamamos al mixins no le pasamos ningun valor toamra el por defecto.*/
+
 @mixin flex-direction-justificar($direction,$justify:$center,$unBorde:1px solid black){
     display:flex;
     flex-direction:$direction;
@@ -44,29 +44,21 @@
 }
 
 
-/*ahora este mixin recibe un valor, 
-en programación es lo que se llama una funcion
-yo defino una porcion de codigo y luego la llamo cuando la necesito
-en este caso esta recibiendo una variable que solo existe localmente en esta funcion(no es una variable global)*/
 @mixin miMixin2($valor,$borde-principal,$color:rgb(243, 86, 112)){
     height:$valor;
-    /*puede tener mas variables que no reciben valor*/
     background-color: aqua;
     border:$borde-principal;
     color:$color;
 }
 
-/*ver este ejemplo cuando veamos condicionales*/
 @mixin redes($nombre){
-    /*puedo poner un if dentro de una clase tambien */
     @if $nombre == instagram{
         color:#ff00ea;
-        /*sino sucede que nombre == instagram,*/
     }@else if $nombre == facebook{
         color:blue;
     }@else if $nombre == tiktok{
         color:rgb(231, 33, 33);
-    }@else { /*si no se cumple ninguna de las condiciones de arriba, entonces...*/
+    }@else {
         color:rgba(0, 0, 0, 0.336);
     }
 
