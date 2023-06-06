@@ -1,25 +1,26 @@
-$fuente-textos-titulos: 'Manrope', sans-serif;
-$tituloh1: color rgb(255, 230, 0);
-h1{  
-    font-size: 3rem;
-}
+$fuentetextostitulos: 'Manrope', sans-serif;
+$colortituloh1: color rgb(255, 230, 0);
 
 h2{
     color: rgb(255, 253, 253);
+    font-family: $fuentetextostitulos;
 }
 
 h3{
     color: rgb(0, 0, 0);
+    
 }
 
 p{
-    color: white !important;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .BloqueTitulo {
     display: contents;
     .Titulo {
+        color: $colortituloh1;
+        font-family: $fuentetextostitulos;
         position: relative;
-        color: rgb(255, 217, 0) !important;
         text-align: center;
         margin: 0 auto;
         width: 40%;
@@ -29,10 +30,10 @@ p{
 }
 
 .BloqueLogo {
-    width: 45%;
+    width: 11%;
     display: flex;
     .Logo {
-        width: 25%;
+        width: 100%;
     }
 }
 
@@ -42,7 +43,7 @@ p{
     text-align: justify;
     backdrop-filter: blur(10px) saturate(50%);
     .Sub {
-        color: rgb(255, 255, 255) !important;
+        color: rgb(255, 255, 255);
         margin: 0 auto;
         width: 100%;
         font-size: 1rem;
@@ -51,6 +52,7 @@ p{
 
 .sections {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -81,7 +83,7 @@ p{
 
     .navbar-toggler {
         border-color: rgb(0, 0, 0) !important;
-        border: 5px solid rgb(0, 136, 255) !important;
+        border: 5px solid rgb(0, 136, 255);
     
         &:hover {
             border-color: rgb(247, 5, 5) !important;
@@ -98,7 +100,7 @@ p{
         display: contents;
         .Titulo {
             position: relative;
-            color: rgb(255, 217, 0) !important;
+            color: rgb(255, 217, 0);
             text-align: center;
             margin-left: auto;
             width: 90%;
@@ -108,10 +110,10 @@ p{
     }
     
     .BloqueLogo {
-        width: 45%;
+        width: 20%;
         display: flex;
         .Logo {
-            width: 25%;
+            width: 100%;
         }
     }
     
@@ -121,7 +123,7 @@ p{
         text-align: justify;
         backdrop-filter: blur(10px) saturate(50%);
         .Sub {
-            color: rgb(255, 255, 255) !important;
+            color: rgb(255, 255, 255);
             margin: 0 auto;
             width: 100%;
             font-size: 1rem;

@@ -5,13 +5,20 @@
     text-decoration: none;
     list-style: none;
 }   
+.body{
+    color: black;
+}
 .background-main{
-    background-image: url(../Assets/Img/pexels-mídia-4116193.jpg);
-        opacity: 1;
+    background-image: url(../Assets/Img/interior-taller.jpg);
     height: auto;
-    background-color: rgb(255, 255, 255);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
+h1{  
+    font-size: 3rem;
+    color: $colortituloh1;
+}
+

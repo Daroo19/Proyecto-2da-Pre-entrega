@@ -1,6 +1,3 @@
-/*este mixin es posible, pero no es la forma optima de usarlo, porque no le paso 
-ningun modificador, entonces es recomendable en este caso usar extend*/
-
 @mixin mixinHeight{
     height: 250px;
 }
