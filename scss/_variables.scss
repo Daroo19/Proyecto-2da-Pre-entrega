@@ -2,13 +2,13 @@ $fuentetextostitulos: 'Manrope', sans-serif;
 $colortituloh1: color rgb(255, 230, 0);
 
 h2{
-    color: rgb(255, 253, 253);
-    font-family: $fuentetextostitulos;
+    color: rgb(255, 255, 255);
+    font-family: 'Manrope', sans-serif;
+    padding: 10px;
 }
 
 h3{
     color: rgb(0, 0, 0);
-    
 }
 
 p{
@@ -18,8 +18,9 @@ p{
 .BloqueTitulo {
     display: contents;
     .Titulo {
-        color: $colortituloh1;
+        color: rgb(255, 230, 0);
         font-family: $fuentetextostitulos;
+        border: 10px;
         position: relative;
         text-align: center;
         margin: 0 auto;
@@ -47,6 +48,11 @@ p{
         margin: 0 auto;
         width: 100%;
         font-size: 1rem;
+        border: 10px;
+        padding: 10px;
+        border-color: black;
+        border-width: 10px;
+        border-style: double;
     }
 }
 
