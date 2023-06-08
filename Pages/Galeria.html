@@ -15,14 +15,14 @@
 
 </head>
 
-<body>
+<body class="body">
   <header class="container-fluid">
     <a class="BloqueLogo" href="../Index.html">
-      <img class="Logo" src="../Assets/Img/56a9f3d83ae58_thumb900.webp" alt="Logo" width="75px">
+      <img class="Logo" src="../Assets/Img/logo.png" alt="Logo">
     </a>
     <nav class="navbar navbar-expand-lg navbar-dark navHeader">
       <div class="container-fluid">
-        <a class="navbar-brand" href="../Index.html">Inicio</a>
+        <a class="navbar-brand" href="#">Galeria -</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -41,10 +41,10 @@
                 Servicios
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="Pagina en construccion.html">Lubricentro</a></li>
-                <li><a class="dropdown-item" href="Pagina en construccion.html">Lavado Interior/Exterior</a></li>
-                <li><a class="dropdown-item" href="Pagina en construccion.html">Mecanica General</a></li>
-                <li><a class="dropdown-item" href="Pagina en construccion.html">Diagnostico Computarizado</a></li>
+                <li><a class="dropdown-item" href="./404.html">Lubricentro</a></li>
+                <li><a class="dropdown-item" href="./404.html">Lavado Interior/Exterior</a></li>
+                <li><a class="dropdown-item" href="./404.html">Mecanica General</a></li>
+                <li><a class="dropdown-item" href="./404.html">Diagnostico Computarizado</a></li>
                 <li>
                   <hr class="dropdown-divider">
                 </li>
@@ -66,25 +66,25 @@
         <div class="card">
           <img src="../Assets/Img/limpiar-motor-coche.jpg" class="card-img-top" alt="Limpieza Motor">
           <div class="card-body">
-            <p-card class="card-text">Limpieza de Motores</p-card>
+            <card class="card-text">Limpieza de Motores</card>
           </div>
         </div>
         <div class="card">
           <img src="../Assets/Img/reg-valvula.jpg" class="card-img-top" alt="Regulacion de valvulas">
           <div class="card-body">
-            <p-card class="card-text">Regulacion de Valvulas</p-card>
+            <card class="card-text">Regulacion de Valvulas</card>
           </div>
         </div>
         <div class="card">
           <img src="../Assets/Img/Mecanicagen.jpg" class="card-img-top" alt="Mecanica General">
           <div class="card-body">
-            <p-card class="card-text">Mecanica General</p-card>
+            <card class="card-text">Mecanica General</card>
           </div>
         </div>
         <div class="card">
           <img src="../Assets/Img/autolavado.jpg" class="card-img-top" alt="autolavado">
           <div class="card-body">
-            <p-card class="card-text">Lavado de Vehiculos</p-card>
+            <card class="card-text">Lavado de Vehiculos</card>
           </div>
         </div>
       </div>
@@ -118,25 +118,37 @@
     </section>
   </main>
 
-  <footer>
-    <div>
-      <a href="https://www.facebook.com/" target="_blank"><i class="fb fa-brands fa-facebook fa-3x"></i></a>
-      <a href="https://www.instagram.com/" target="_blank"><i class="ing fa-brands fa-instagram fa-3x"></i></a>
-      <a href="https://www.whatsapp.com/" target="_blank"><i class="wsp fa-brands fa-whatsapp fa-3x"></i></a>
-    </div>
-    <div class="Mapas">
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d5607.191375304314!2d-67.71189297200178!3d-53.779990508307144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1smaps!5e0!3m2!1ses-419!2sar!4v1679535049982!5m2!1ses-419!2sar"
-        width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
-    <div class="CopyRight">
-      <p>Todos los derechos reservados. Dario Zarate</p>
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"></script>
+  <footer class="footer">
+    <div class="container">
+      <div class="container text-center">
+          <hr class="marginHr">
+          <div class="row">
+              <div class="col-sm-4"></div>
+              <div class="col-sm-4">
+                  <a href="#"><img class="logo logoFooter" src="../assets/img/logo.png" alt="Logo"></a>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-sm-8"></div>
+              <div class="col-sm-4"></div>
+          </div>
+          <div class="row">
+              <div class="col-sm">© Todos los derechos reservados</div>
+              <div class="col-sm">Dario Zarate</div>
+              <div class="col-sm">
+                  <a class="linkRedes" href="https://www.facebook.com/" target="_blank"><i
+                          class="icon fa-brands fa-facebook "></i></a>
+                  <a class="linkRedes" href="https://www.instagram.com/" target="_blank"><i
+                          class="icon fa-brands fa-instagram "></i></a>
+                  <a class="linkRedes" href="https://www.whatsapp.com/" target="_blank"><i
+                          class="icon fa-brands fa-whatsapp "></i></a>
+              </div>
+          </div>
+      </div>
   </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+  crossorigin="anonymous"></script>
 </body>
 
 </html>

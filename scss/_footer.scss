@@ -1,38 +1,25 @@
-footer {
-    height: auto;
-    background-color: rgb(7, 7, 7);
-    .CopyRight {
-        text-align: center;
-        color: white;
-        margin: 0 auto;
-        margin-top: 1%;
-    }
-    .ing {
-        color: red;
-        position: fixed;
-        left: 1%;
-        bottom: 10%;
-    }
-    .fb {
-        color: red;
-        position: fixed;
-        left: 1%;
-        bottom: 2%;
-    }
-    .wsp {
-        display: inline-block;
-        color: rgb(51, 255, 0);
-        position: fixed;
-        right: 0;
-        bottom: 2%;
-    }
-    .Mapas {
-        text-align: center;
-        margin: 0 auto;
-        margin-top: 2%;
-    }
+.footer {
+  background-image: url("../assets/img/footer.jpg");
+  background-color: #75050552;
+  color: white;
+  height: auto;
+  text-align: center;
+  padding-bottom: 1%;
+}
+.linkRedes {
+  color: white;
+  text-decoration: none;
+  padding-left: 20px;
+}
+.logoFooter {
+  width: 50%;
+  height: 70%;
+}
+.footer p {
+  font-size: 1.5rem;
+  font-family: "Mukta", sans-serif;
+  padding-top: 10px;
 }
 
-@media screen and (min-width: 300px) and (max-width:767px){
-    
+@media screen and (min-width: 300px) and (max-width: 767px) {
 }

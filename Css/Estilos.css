@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2? family= Manrope:wght@200;400;700 & display=swap");
 h2 {
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   font-family: "Manrope", sans-serif;
   padding: 10px;
 }
@@ -10,7 +10,7 @@ h3 {
 }
 
 p {
-  color: white;
+  color: rgb(0, 0, 0);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -142,7 +142,7 @@ p {
 }
 
 .body {
-  color: black;
+  background-color: rgba(0, 0, 0, 0.849);
 }
 
 .background-main {
@@ -154,13 +154,8 @@ p {
   background-attachment: fixed;
 }
 
-h1 {
-  font-size: 3rem;
-  color: color rgb(255, 230, 0);
-}
-
 header {
-  background-image: url(../Assets/Img/motor-g2275a3f08_1920.jpg);
+  background-color: rgba(51, 50, 50, 0.849);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -169,13 +164,16 @@ header {
 .tarjetas {
   margin-left: 7%;
 }
-.tarjetas .card {
+
+.card {
+  padding: 1%;
   margin-top: 5%;
   display: inline-block;
-  width: 18rem;
+  width: 50%;
 }
 
 .com-cliente {
+  color: white;
   margin-top: 2%;
   margin-left: 8%;
   text-align: center;
@@ -218,37 +216,30 @@ header {
   margin-bottom: 1%;
 }
 
-footer {
-  height: auto;
-  background-color: rgb(7, 7, 7);
-}
-footer .CopyRight {
-  text-align: center;
+.footer {
+  background-image: url("../assets/img/footer.jpg");
+  background-color: rgba(117, 5, 5, 0.3215686275);
   color: white;
-  margin: 0 auto;
-  margin-top: 1%;
-}
-footer .ing {
-  color: red;
-  position: fixed;
-  left: 1%;
-  bottom: 10%;
-}
-footer .fb {
-  color: red;
-  position: fixed;
-  left: 1%;
-  bottom: 2%;
-}
-footer .wsp {
-  display: inline-block;
-  color: rgb(51, 255, 0);
-  position: fixed;
-  right: 0;
-  bottom: 2%;
-}
-footer .Mapas {
+  height: auto;
   text-align: center;
-  margin: 0 auto;
-  margin-top: 2%;
-}/*# sourceMappingURL=estilos.css.map */
+  padding-bottom: 1%;
+}
+
+.linkRedes {
+  color: white;
+  text-decoration: none;
+  padding-left: 20px;
+}
+
+.logoFooter {
+  width: 50%;
+  height: 70%;
+}
+
+.footer p {
+  font-size: 1.5rem;
+  font-family: "Mukta", sans-serif;
+  padding-top: 10px;
+}
+
+/*# sourceMappingURL=estilos.css.map */

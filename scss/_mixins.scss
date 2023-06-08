@@ -1,81 +1,85 @@
-@mixin mixinHeight{
-    height: 250px;
+@mixin mixinHeight {
+  height: 250px;
 }
 
-@mixin flex-row-center{
-	display:$flex;
-	flex-direction:row;
-	justify-content:center;
+@mixin flex-row-center {
+  display: $flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
-@mixin flex-column-center{
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
+@mixin flex-column-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-@mixin flex-direction-center($direction){
-    display:flex;
-    flex-direction:$direction;
-    justify-content:center;
+@mixin flex-direction-center($direction) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: center;
 }
 
-@mixin flex-direction-justificar($direction,$justify:$center,$unBorde:1px solid black){
-    display:flex;
-    flex-direction:$direction;
-    justify-content:$justify;
-    border: $unBorde;
+@mixin flex-direction-justificar(
+  $direction,
+  $justify: $center,
+  $unBorde: 1px solid black
+) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justify;
+  border: $unBorde;
 }
 
-@mixin grid-columns-row($columns,$row){
-    display:grid;
-    grid-template-columns:repeat($columns, 1fr);
-    grid-template-rows:repeat($row, 1fr);
+@mixin grid-columns-row($columns, $row) {
+  display: grid;
+  grid-template-columns: repeat($columns, 1fr);
+  grid-template-rows: repeat($row, 1fr);
 }
 
-@mixin flexbox($justificacion,$alineacion,$direction,$ancho,$alto,$borde:1px solid black){
-    display:flex;
-    justify-content:$justificacion;
-    align-items: $alineacion;
-    flex-direction: $direction;
-    width:$ancho;
-    height:$alto;
-
+@mixin flexbox(
+  $justificacion,
+  $alineacion,
+  $direction,
+  $ancho,
+  $alto,
+  $borde: 1px solid black
+) {
+  display: flex;
+  justify-content: $justificacion;
+  align-items: $alineacion;
+  flex-direction: $direction;
+  width: $ancho;
+  height: $alto;
 }
 
-
-@mixin miMixin2($valor,$borde-principal,$color:rgb(243, 86, 112)){
-    height:$valor;
-    background-color: aqua;
-    border:$borde-principal;
-    color:$color;
+@mixin miMixin2($valor, $borde-principal, $color: rgb(243, 86, 112)) {
+  height: $valor;
+  background-color: aqua;
+  border: $borde-principal;
+  color: $color;
 }
 
-@mixin redes($nombre){
-    @if $nombre == instagram{
-        color:#ff00ea;
-    }@else if $nombre == facebook{
-        color:blue;
-    }@else if $nombre == tiktok{
-        color:rgb(231, 33, 33);
-    }@else {
-        color:rgba(0, 0, 0, 0.336);
-    }
-
+@mixin redes($nombre) {
+  @if $nombre == instagram {
+    color: #ff00ea;
+  } @else if $nombre == facebook {
+    color: blue;
+  } @else if $nombre == tiktok {
+    color: rgb(231, 33, 33);
+  } @else {
+    color: rgba(0, 0, 0, 0.336);
+  }
 }
 
-@mixin contenedor_grid($bgcolor,$justify,$aling){
-    background-color:$bgcolor;
-    display: grid;
-    justify-content: $justify;
-    align-items: $aling;
+@mixin contenedor_grid($bgcolor, $justify, $aling) {
+  background-color: $bgcolor;
+  display: grid;
+  justify-content: $justify;
+  align-items: $aling;
 }
 
-@mixin alineacion-flex($justify,$text-aling) {
-    justify-content: $justify;
-    text-align: $text-align;
+@mixin alineacion-flex($justify, $text-aling) {
+  justify-content: $justify;
+  text-align: $text-align;
 }
-
-
-
-

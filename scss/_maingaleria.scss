@@ -1,31 +1,29 @@
 .tarjetas {
-    margin-left: 7%;  
-    .card {
-        margin-top: 5%;
-        display: inline-block;
-        width: 18rem;
-    }  
+  margin-left: 7%;
+}
+.card {
+  padding: 1%;
+  margin-top: 5%;
+  display: inline-block;
+  width: 50%;
 }
 
 .com-cliente {
-    margin-top: 2%;
-    margin-left: 8%;
-    text-align: center;
-    font-size: 1.2rem;
-    width: 83%;
-
+  color: white;
+  margin-top: 2%;
+  margin-left: 8%;
+  text-align: center;
+  font-size: 1.2rem;
+  width: 83%;
 }
 
-@media screen and (min-width: 300px) and (max-width:767px){
-    .tarjetas {
-        margin-left: 16%;  
-        .card {
-            margin-top: 5%;
-            display: inline-block;
-            width: 12rem;
-        }   
+@media screen and (min-width: 300px) and (max-width: 767px) {
+  .tarjetas {
+    margin-left: 16%;
+    .card {
+      margin-top: 5%;
+      display: inline-block;
+      width: 12rem;
     }
-     
-    
+  }
 }
-

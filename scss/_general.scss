@@ -1,24 +1,18 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    list-style: none;
-}   
-.body{
-    color: black;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
 }
-.background-main{
-    background-image: url(../Assets/Img/interior-taller.webp);
-    height: auto;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+.body {
+  background-color: rgba(0, 0, 0, 0.849);
 }
-
-h1{  
-    font-size: 3rem;
-    color: $colortituloh1;
+.background-main {
+  background-image: url(../Assets/Img/interior-taller.webp);
+  height: auto;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
-

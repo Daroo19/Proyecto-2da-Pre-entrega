@@ -1,146 +1,145 @@
-$fuentetextostitulos: 'Manrope', sans-serif;
+$fuentetextostitulos: "Manrope", sans-serif;
 $colortituloh1: color rgb(255, 230, 0);
 
-h2{
-    color: rgb(255, 255, 255);
-    font-family: 'Manrope', sans-serif;
-    padding: 10px;
+h2 {
+  color: rgb(0, 0, 0);
+  font-family: "Manrope", sans-serif;
+  padding: 10px;
 }
 
-h3{
-    color: rgb(0, 0, 0);
+h3 {
+  color: rgb(0, 0, 0);
 }
 
-p{
-    color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+p {
+  color: rgb(0, 0, 0);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .BloqueTitulo {
-    display: contents;
-    .Titulo {
-        color: rgb(255, 230, 0);
-        font-family: $fuentetextostitulos;
-        border: 10px;
-        position: relative;
-        text-align: center;
-        margin: 0 auto;
-        width: 40%;
-        z-index: 1;
-        text-shadow: 40px;
-    }
+  display: contents;
+  .Titulo {
+    color: rgb(255, 230, 0);
+    font-family: $fuentetextostitulos;
+    border: 10px;
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    width: 40%;
+    z-index: 1;
+    text-shadow: 40px;
+  }
 }
 
 .BloqueLogo {
-    width: 11%;
-    display: flex;
-    .Logo {
-        width: 100%;
-    }
+  width: 11%;
+  display: flex;
+  .Logo {
+    width: 100%;
+  }
 }
 
 .BloqueSub {
-    width: 65%;
-    margin-left: 36%;
-    text-align: justify;
-    backdrop-filter: blur(10px) saturate(50%);
-    .Sub {
-        color: rgb(255, 255, 255);
-        margin: 0 auto;
-        width: 100%;
-        font-size: 1rem;
-        border: 10px;
-        padding: 10px;
-        border-color: black;
-        border-width: 10px;
-        border-style: double;
-    }
+  width: 65%;
+  margin-left: 36%;
+  text-align: justify;
+  backdrop-filter: blur(10px) saturate(50%);
+  .Sub {
+    color: rgb(255, 255, 255);
+    margin: 0 auto;
+    width: 100%;
+    font-size: 1rem;
+    border: 10px;
+    padding: 10px;
+    border-color: black;
+    border-width: 10px;
+    border-style: double;
+  }
 }
 
 .sections {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .tallerFrente {
-    width: 100%;
-    margin: 0 auto;
-    display: block;
+  width: 100%;
+  margin: 0 auto;
+  display: block;
 }
 
 .h3 {
-    .Com.cliente {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        text-align: justify;
-        margin: auto;
-        background-color: lightsalmon;
-    }
+  .Com.cliente {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+    margin: auto;
+    background-color: lightsalmon;
+  }
 }
 
-@media screen and (min-width: 300px) and (max-width:767px){
+@media screen and (min-width: 300px) and (max-width: 767px) {
+  .h1 {
+    font-size: 1rem;
+  }
 
-    .h1{
-        font-size: 1rem;
-    }
+  .navbar-toggler {
+    border-color: rgb(0, 0, 0) !important;
+    border: 5px solid rgb(0, 136, 255);
 
-    .navbar-toggler {
-        border-color: rgb(0, 0, 0) !important;
-        border: 5px solid rgb(0, 136, 255);
-    
-        &:hover {
-            border-color: rgb(247, 5, 5) !important;
-        }
+    &:hover {
+      border-color: rgb(247, 5, 5) !important;
     }
-    
-    .tallerFrente {
-      width: 50%;
-      margin-left: 28%;
-      display: block;
+  }
+
+  .tallerFrente {
+    width: 50%;
+    margin-left: 28%;
+    display: block;
+  }
+
+  .BloqueTitulo {
+    display: contents;
+    .Titulo {
+      position: relative;
+      color: rgb(255, 217, 0);
+      text-align: center;
+      margin-left: auto;
+      width: 90%;
+      z-index: 1;
+      text-shadow: 20cap;
     }
-    
-    .BloqueTitulo {
-        display: contents;
-        .Titulo {
-            position: relative;
-            color: rgb(255, 217, 0);
-            text-align: center;
-            margin-left: auto;
-            width: 90%;
-            z-index: 1;
-            text-shadow: 20cap;
-        }
+  }
+
+  .BloqueLogo {
+    width: 20%;
+    display: flex;
+    .Logo {
+      width: 100%;
     }
-    
-    .BloqueLogo {
-        width: 20%;
-        display: flex;
-        .Logo {
-            width: 100%;
-        }
+  }
+
+  .BloqueSub {
+    width: 65%;
+    margin-left: 20%;
+    text-align: justify;
+    backdrop-filter: blur(10px) saturate(50%);
+    .Sub {
+      color: rgb(255, 255, 255);
+      margin: 0 auto;
+      width: 100%;
+      font-size: 1rem;
+      text-shadow: 20px 20px 20px;
     }
-    
-    .BloqueSub {
-        width: 65%;
-        margin-left: 20%;
-        text-align: justify;
-        backdrop-filter: blur(10px) saturate(50%);
-        .Sub {
-            color: rgb(255, 255, 255);
-            margin: 0 auto;
-            width: 100%;
-            font-size: 1rem;
-            text-shadow: 20px 20px 20px; 
-        }
-    }
-    
-    .sections {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
+  }
+
+  .sections {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
