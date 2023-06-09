@@ -52,7 +52,7 @@ p {
 }
 
 .BloqueSub {
-  width: 65%;
+  width: 100%;
   margin-left: 36%;
   text-align: justify;
   backdrop-filter: blur(10px) saturate(50%);
@@ -71,7 +71,7 @@ p {
 
 .sections {
   display: flex;
-  flex-wrap: wrap;
+  /*flex-wrap: wrap;*/
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -79,8 +79,8 @@ p {
 
 .tallerFrente {
   width: 100%;
-  margin: 0 auto;
-  display: block;
+  margin-left: 36%;
+  display: flex;
 }
 
 .h3 {
@@ -136,8 +136,8 @@ p {
   }
 
   .BloqueSub {
-    width: 65%;
-    margin-left: 20%;
+    width: 40%;
+    margin-left: auto;
     text-align: justify;
     backdrop-filter: blur(10px) saturate(50%);
     .Sub {

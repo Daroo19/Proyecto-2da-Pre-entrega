@@ -16,3 +16,14 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
+.tarjetas-ini {
+  width: 100%;
+}
+
+@media screen and (min-width: 300px) and (max-width: 767px) {
+}
+
+.tarjetas-ini {
+  width: 50%;
+}
