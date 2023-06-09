@@ -1,8 +1,21 @@
 @import url("https://fonts.googleapis.com/css2? family= Manrope:wght@200;400;700 & display=swap");
+h1 {
+  color: white;
+}
+
 h2 {
   color: rgb(0, 0, 0);
   font-family: "Manrope", sans-serif;
   padding: 10px;
+}
+
+.h2c {
+  color: white;
+  backdrop-filter: blur(10px) saturate(50%);
+  border-radius: 10px;
+  height: 50%;
+  width: 80%;
+  text-align: center;
 }
 
 h3 {
@@ -10,7 +23,7 @@ h3 {
 }
 
 p {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -214,6 +227,11 @@ header {
 .botonReset {
   margin-left: 2%;
   margin-bottom: 1%;
+}
+
+.btn-turno {
+  color: white;
+  font-size: large;
 }
 
 .footer {
