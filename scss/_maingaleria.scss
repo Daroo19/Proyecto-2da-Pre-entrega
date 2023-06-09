@@ -1,10 +1,11 @@
 .tarjetas {
-  margin-left: 7%;
+  padding: 5%;
+  display: inline-flex;
 }
 .card {
   padding: 1%;
   margin-top: 5%;
-  display: inline-block;
+  display: inline-flex;
   width: 50%;
 }
 
@@ -19,7 +20,8 @@
 
 @media screen and (min-width: 300px) and (max-width: 767px) {
   .tarjetas {
-    margin-left: 16%;
+    margin: 4%;
+    display: inline-block;
     .card {
       margin-top: 5%;
       display: inline-block;
